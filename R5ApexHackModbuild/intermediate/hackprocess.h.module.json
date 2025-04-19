@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "R5ApexHackModbuild\\intermediate\\HackProcess.h.obj",
+            "outputs": [
+                "C:\\Users\\minan\\source\\repos\\dllInjector\\R5ApexHackModbuild\\intermediate\\vc143.pdb",
+                "R5ApexHackModbuild\\intermediate\\",
+                "C:\\Users\\minan\\source\\repos\\dllInjector\\R5ApexHackModbuild\\intermediate\\HackProcess.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "include\\HackProcess.h",
+                    "source-path": "c:\\users\\minan\\source\\repos\\dllinjector\\include\\hackprocess.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

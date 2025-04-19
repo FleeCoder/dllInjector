@@ -1,0 +1,158 @@
+﻿  HackProcess.h
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,32):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9):
+      while trying to match the argument list '(WCHAR [260], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,31):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9):
+      while trying to match the argument list '(WCHAR [256], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(124,10): error C3861: '_tcsicmp': identifier not found
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [260]' to 'const char *'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,29):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13):
+      see declaration of 'strcmp'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8):
+      while trying to match the argument list '(char *, WCHAR [260])'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3): error C2664: 'BOOL LookupPrivilegeValueW(LPCWSTR,LPCWSTR,PLUID)': cannot convert argument 2 from 'char *' to 'LPCWSTR'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,30):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winbase.h(7293,1):
+      see declaration of 'LookupPrivilegeValueW'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3):
+      while trying to match the argument list '(int, char *, LUID *)'
+  
+  LocalPlayer.cpp
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'LocalPlayer.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,32):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9):
+      while trying to match the argument list '(WCHAR [260], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  (compiling source file 'LocalPlayer.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,31):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9):
+      while trying to match the argument list '(WCHAR [256], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(124,10): error C3861: '_tcsicmp': identifier not found
+  (compiling source file 'LocalPlayer.cpp')
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'LocalPlayer.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,29):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13):
+      see declaration of 'strcmp'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8):
+      while trying to match the argument list '(char *, WCHAR [260])'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3): error C2664: 'BOOL LookupPrivilegeValueW(LPCWSTR,LPCWSTR,PLUID)': cannot convert argument 2 from 'char *' to 'LPCWSTR'
+  (compiling source file 'LocalPlayer.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,30):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winbase.h(7293,1):
+      see declaration of 'LookupPrivilegeValueW'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3):
+      while trying to match the argument list '(int, char *, LUID *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\LocalPlayer.cpp(43,32): warning C4312: 'type cast': conversion from 'unsigned long' to 'PBYTE *' of greater size
+C:\Users\minan\source\repos\R5ApexHackMod\LocalPlayer.cpp(44,32): warning C4312: 'type cast': conversion from 'unsigned long' to 'PBYTE *' of greater size
+C:\Users\minan\source\repos\R5ApexHackMod\LocalPlayer.cpp(45,32): warning C4312: 'type cast': conversion from 'unsigned long' to 'PBYTE *' of greater size
+  main.cpp
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'main.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,32):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9):
+      while trying to match the argument list '(WCHAR [260], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  (compiling source file 'main.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,31):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9):
+      while trying to match the argument list '(WCHAR [256], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(124,10): error C3861: '_tcsicmp': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'main.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,29):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13):
+      see declaration of 'strcmp'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8):
+      while trying to match the argument list '(char *, WCHAR [260])'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3): error C2664: 'BOOL LookupPrivilegeValueW(LPCWSTR,LPCWSTR,PLUID)': cannot convert argument 2 from 'char *' to 'LPCWSTR'
+  (compiling source file 'main.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,30):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winbase.h(7293,1):
+      see declaration of 'LookupPrivilegeValueW'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3):
+      while trying to match the argument list '(int, char *, LUID *)'
+  
+  ProcessHandler.cpp
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'ProcessHandler.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,32):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(48,9):
+      while trying to match the argument list '(WCHAR [260], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9): error C2664: 'int _strcmpi(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  (compiling source file 'ProcessHandler.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,31):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(106,22):
+      see declaration of '_strcmpi'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(69,9):
+      while trying to match the argument list '(WCHAR [256], CHAR *)'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(124,10): error C3861: '_tcsicmp': identifier not found
+  (compiling source file 'ProcessHandler.cpp')
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [260]' to 'const char *'
+  (compiling source file 'ProcessHandler.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,29):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13):
+      see declaration of 'strcmp'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(189,8):
+      while trying to match the argument list '(char *, WCHAR [260])'
+  
+C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3): error C2664: 'BOOL LookupPrivilegeValueW(LPCWSTR,LPCWSTR,PLUID)': cannot convert argument 2 from 'char *' to 'LPCWSTR'
+  (compiling source file 'ProcessHandler.cpp')
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,30):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winbase.h(7293,1):
+      see declaration of 'LookupPrivilegeValueW'
+      C:\Users\minan\source\repos\R5ApexHackMod\HackProcess.h(206,3):
+      while trying to match the argument list '(int, char *, LUID *)'
+  
+  Generating Code...

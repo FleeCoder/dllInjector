@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "R5ApexHackModbuild\\intermediate\\HackProcess.obj",
+            "outputs": [
+                "R5ApexHackModbuild\\intermediate\\HackProcess.h_8BDA18BD564D6031.ifc.dt.module.json",
+                "R5ApexHackModbuild\\intermediate\\HackProcess.h_8BDA18BD564D6031.ifc.dt.d.json",
+                "R5ApexHackModbuild\\intermediate\\HackProcess.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\minan\\source\\repos\\dllInjector\\include\\HackProcess.h",
+                    "source-path": "c:\\users\\minan\\source\\repos\\dllinjector\\include\\hackprocess.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

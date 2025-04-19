@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(519,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+  Scanning sources for module dependencies...
+  HackProcess.h
+  Compiling...
+  HackProcess.h
+  HackProcess.cpp
+  main.cpp
+  ProcessHandler.cpp
+  Generating Code...
+C:\Users\minan\source\repos\dllInjector\src\ProcessHandler.cpp(67,1): warning C4172: returning address of local variable or temporary : randString
+  R5ApexHackMod.vcxproj -> C:\Users\minan\source\repos\dllInjector\build\R5ApexHackMod.exe
